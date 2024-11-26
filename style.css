@@ -46,7 +46,7 @@ header{
     
     /* DEBUG */
     height: 560px;
-    border: solid 1px black;
+    
 }
 
 .product img{
@@ -54,6 +54,13 @@ header{
     background-position: center;
 }
 
+.hearts{
+    position: absolute;
+    font-size: large;
+    right: 0;
+    top: 60px;
+    z-index: 15;
+}
 
 .discount-label{
     padding: 0 20px;
@@ -83,6 +90,8 @@ header{
     text-decoration: line-through
 }
 
-.heart{
-    font-size: ;
+footer{
+    width: auto;
+    background-color: black;
+    height: 80px;
 }
