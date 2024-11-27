@@ -54,9 +54,13 @@ header{
     background-position: center;
 }
 
-.hearts{
+.heart{
     position: absolute;
-    font-size: large;
+    font-size: 28px;
+    color: black;
+    background-color: white;
+    height: 30px;
+    width: 40px;
     right: 0;
     top: 60px;
     z-index: 15;
