@@ -5,6 +5,10 @@
 
 }
 
+body{
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
 header{
     width: auto;
     height: 80px;
@@ -52,6 +56,18 @@ header{
 .product img{
     max-width: 100%;
     background-position: center;
+}
+
+.img-box .img-out{
+    display: none;
+}
+
+.img-box:hover .img-out{
+    display: block;
+}
+
+.img-box:hover .img-in{
+    display: none;
 }
 
 .heart{
