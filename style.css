@@ -66,7 +66,7 @@ header{
     display: block;
 }
 
-.img-box:hover .img-in{
+.img-box:hover .img-inn{
     display: none;
 }
 
